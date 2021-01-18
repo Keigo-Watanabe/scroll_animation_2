@@ -1,0 +1,41 @@
+.msg {
+  color: #333;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.box-inner {
+  max-width: 1000px;
+  margin: 500px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 31%;
+  height: 200px;
+  background-color: orange;
+  transform: translate(0, 50px);
+}
+
+.fade-in {
+  opacity: 0;
+  transition-duration: 1.5s;
+  transition-property: opacity, transform;
+}
+
+.fade-in-center {
+  transition-delay: 0.5s;
+}
+
+.fade-in-right {
+  transition-delay: 1s;
+}
+
+.scroll-in {
+  opacity: 1;
+  transform: translate(0, 0);
+}
